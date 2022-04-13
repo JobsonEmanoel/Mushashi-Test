@@ -1,0 +1,12 @@
+import org.junit.Before;
+import org.openqa.selenium.WebDriver;
+
+public class TesteLoginMushashi {
+	private WebDriver driver;
+	
+	@Before
+	public void abrirNavegador() {
+		System.setProperty("webdriver.chrome.driver", "C://Arquivo de Progamas//chromedriver//chromedriver.exe");
+	}
+
+}
